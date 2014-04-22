@@ -1,4 +1,4 @@
-Restore a generic terminal from a fresh OSX install
+Restore Terminal Checklist
 ===
 
 1. Get an Itunes account
@@ -15,13 +15,11 @@ Restore a generic terminal from a fresh OSX install
 
 	brew install git
 
-3. Download these checklists (amend them as you go).  Also gets some elusive configuration files.
+2. Configure git following [Github's instructions](https://help.github.com/articles/set-up-git#set-up-git)
 
-	git clone github/blah/theglist
-	
-4. Install the dotfiles
+3. Download these checklists and some elusive configuration files.  Please update them as you go, and push when you're done.
 
-	?
+	git clone https://github.com/thisrod/theglist.git $HOME/theglist
 	
 5. Install a Fortran compiler:
 
@@ -39,7 +37,7 @@ Restore a generic terminal from a fresh OSX install
 
 	cp etc/revtex4-1.layout open /Applications/LyX.app/Contents/Resources/layouts/
 	
-Run Lyx, and select LyX → Reconfigure
+8. Run Lyx, and select LyX → Reconfigure
 	
 9. Configure the AD printers: Systerm Preferences → Printers & Scanners → Add → IP
 
@@ -53,9 +51,12 @@ Run Lyx, and select LyX → Reconfigure
 
 	brew install pyenv
 
-1. Install the pip package manager for Python:
+4. Install the dotfiles
 
-        sudo easy_install pip
+	tar -cf - -C $HOME/theglist/home/ . | tar -xf - -C $HOME
+
+
+
 
 1. Replace the numpy that came with OSX with the latest stable version:
 
