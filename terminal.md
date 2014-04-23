@@ -5,54 +5,52 @@ Restore Terminal
 
 1. Install XCode from the App Store
 
-    which gcc
+      which gcc
 
 1. Install the Homebrew package manager for OSX:
 
-    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+      ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 2. Install a recent version of git
 
-    brew install git
+      brew install git
 
 2. Configure git following [Github's instructions](https://help.github.com/articles/set-up-git#set-up-git)
 
 3. Download these checklists and some elusive configuration files.  Please update them as you go, and push when you're done.
 
-    git clone https://github.com/thisrod/theglist.git $HOME/theglist
+      git clone https://github.com/thisrod/theglist.git $HOME/theglist
 
 5. Install a Fortran compiler:
 
-    brew install gfortran
+      brew install gfortran
 
 6. Install TeX
 
-    http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg
+      http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg
 
 7. Install Lyx
 
-    http://www.lyx.org/Download
+      http://www.lyx.org/Download
 
 8. Install the RevTeX style
 
-    cp etc/revtex4-1.layout open /Applications/LyX.app/Contents/Resources/layouts/
+      cp etc/revtex4-1.layout open /Applications/LyX.app/Contents/Resources/layouts/
 
 8. Run Lyx, and select LyX → Reconfigure
 
-9. Configure the AD printers: Systerm Preferences → Printers & Scanners → Add → IP
-
-    172.22.10.24		5030
+9. Configure the AD printers at Systerm Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
 
 10. Install Dropbox
 
-    https://www.dropbox.com/
+      https://www.dropbox.com/
 
 11. Install pyenv (see Restore Python Checklist)
 
-    brew install pyenv
+      brew install pyenv
 
 4. Install the dotfiles
 
-    tar -cf - -C $HOME/theglist/home/ . | tar -xf - -C $HOME
+      tar -cf - -C $HOME/theglist/home/ . | tar -xf - -C $HOME
 
 13. Start a fresh shell
