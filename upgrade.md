@@ -1,4 +1,4 @@
-Upgrade Terminal Checklist
+Upgrade Terminal
 ===
 
 1. Run the [Backup Checklist](backup.md)
