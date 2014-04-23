@@ -11,7 +11,7 @@ Which list to run
 
 You should run the [Backup Checklist](backup.md) whenever you have done work you don't want to lose.
 
-The [Maintenance Checklist](maintain.md) 
+The [Maintenance Checklist](maintain.md) is a list of things people have had to do over the last year to repair broken software.  If your system breaks, look here to see if someone else has figured out how to fix it.
 
 Run the [Upgrade Checklist](upgrade.md) to install a fresh version of OSX on your terminal.  If you have a new computer with OSX installed, just run the [Restore Terminal Checklist](terminal.md).
 
