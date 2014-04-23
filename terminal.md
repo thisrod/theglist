@@ -45,7 +45,7 @@ Restore Terminal
 
         brew install gfortran
 
-6. Install [TeX](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg)
+6. Install [TeX](http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg)
 
 7. Install [Lyx](http://www.lyx.org/Download#toc4)
 
