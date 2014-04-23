@@ -31,7 +31,7 @@ Restore Python Environment
         mkdir -p $HOME/.caouspy
         git clone https://github.com/Manticore/reikna.git $HOME/.caouspy/reikna
 
-3. Restore the default to system python
+3. Restore the default to system Python
 
         pyenv global system
 
