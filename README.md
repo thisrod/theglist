@@ -11,7 +11,7 @@ Which list to run
 
 You should run the [Backup Checklist](backup.md) whenever you have done work you don't want to lose.
 
-Run the [Upgrade Checklist](upgrade.md) to install a fresh version of OSX on your terminal.  If you have a new computer with OSX installed, just run the [Restore Terminal Checklist](restore.md).
+Run the [Upgrade Checklist](upgrade.md) to install a fresh version of OSX on your terminal.  If you have a new computer with OSX installed, just run the [Restore Terminal Checklist](terminal.md).
 
 If you use a system other than OSX, you will need to modify these lists extensively.  They might provide a useful reference for such things as the IP addresses of printers and the set of Python packages to install.
 
