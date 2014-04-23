@@ -1,0 +1,8 @@
+# usage: awk -f cleanup
+# fixes up whitespace in the checklist markdown
+
+{sub(/^[ \t]+/, "    ")}
+
+/^[ \t]*$/	{$0 = ""}
+
+{print}
