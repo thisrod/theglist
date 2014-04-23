@@ -7,7 +7,7 @@ Restore Terminal
 
         which gcc
 
-1. Install the Homebrew package manager for OSX:
+1. Install the Homebrew package manager
 
         ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
@@ -21,19 +21,15 @@ Restore Terminal
 
         git clone https://github.com/thisrod/theglist.git $HOME/theglist
 
-5. Install a Fortran compiler:
+5. Install a Fortran compiler
 
         brew install gfortran
 
-6. Install TeX
+6. Install [TeX](http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg)
 
-        http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg
+7. Install [Lyx](http://www.lyx.org/Download)
 
-7. Install Lyx
-
-        http://www.lyx.org/Download
-
-8. Install the RevTeX style
+8. Install the RevTeX layout for Lyx
 
         cp etc/revtex4-1.layout open /Applications/LyX.app/Contents/Resources/layouts/
 
@@ -41,11 +37,9 @@ Restore Terminal
 
 9. Configure the AD printers at Systerm Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
 
-10. Install Dropbox
+10. Install [Dropbox](https://www.dropbox.com/)
 
-        https://www.dropbox.com/
-
-11. Install pyenv (see Restore Python Checklist)
+11. Install pyenv (see the Restore Python Checklist)
 
         brew install pyenv
 
