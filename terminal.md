@@ -32,7 +32,7 @@ Restore Terminal
 
 8. Install the RevTeX layout for Lyx
 
-        cp etc/revtex4-1.layout open /Applications/LyX.app/Contents/Resources/layouts/
+        cp etc/revtex4-1.layout /Applications/LyX.app/Contents/Resources/layouts/
 
 8. Run Lyx, and select LyX → Reconfigure
 
