@@ -1,9 +1,7 @@
 Upgrade Terminal Checklist
 ===
 
-1. Run the backup checklist
-
-	http://github.com/blah
+1. Run the [Backup Checklist](backup.md)
 
 0. Print this checklist
 
@@ -19,6 +17,4 @@ Upgrade Terminal Checklist
 
 6. Run the installer
 
-8. Follow the Restore Terminal Checklist
-
-	http://github.com/blah
+8. Follow the [Restore Terminal Checklist](terminal.md)

@@ -27,7 +27,7 @@ Restore Terminal
 
 6. Install [TeX](http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg)
 
-7. Install [Lyx](http://www.lyx.org/Download)
+7. Install [Lyx](http://www.lyx.org/Download#toc4)
 
 8. Install the RevTeX layout for Lyx
 
@@ -39,7 +39,7 @@ Restore Terminal
 
 10. Install [Dropbox](https://www.dropbox.com/)
 
-11. Install pyenv (see the Restore Python Checklist)
+11. Install pyenv (see the [Restore Python Checklist](python.md))
 
         brew install pyenv
 
