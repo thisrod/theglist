@@ -47,6 +47,8 @@ Restore Terminal
 
 6. Install [TeX](http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg)
 
+6. Set up Latin Modern fonts in OSX (and thus in XeTeX).  Don't know how yet.
+
 7. Install [Lyx](http://www.lyx.org/Download#toc4)
 
 8. Install the RevTeX layout for Lyx
