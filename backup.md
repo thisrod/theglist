@@ -1,9 +1,14 @@
 Backup
 ===
 
-1. Locate dirty branches of Git repositories
+1. Locate active Git repositories
+
+	du -a $HOME | grep '\.git$'
 
 1. Push everything to github
+
+	git status
+	git push --all
 
 2. Pull the latest theglists
 
