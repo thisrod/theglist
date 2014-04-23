@@ -10,6 +10,7 @@ Restore Terminal
 1. Install the Homebrew package manager
 
         ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+        brew doctor
 
 2. Install a recent version of git
 

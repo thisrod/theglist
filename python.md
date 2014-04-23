@@ -10,13 +10,13 @@ Restore Python Environment
 
         pip install numpy
 
-5. Get scipy, because _obviously_ the factorial function doesn't belong in the numerical library:
+5. Get scipy, because _obviously_ the factorial function doesn't belong in the numerical library
 
         pip install scipy
 
 1. Download and install the [CUDA drivers and tookit](http://developer.nvidia.com/cuda/cuda-downloads)
 
-1. Install ghostscript.  The reasons are black magical; it has the side effect of installing some header files that matplotlib requires.
+1. Install ghostscript and freetype, which has the side effect of installing some header files that matplotlib requires
 
         brew install ghostscript
         brew install freetype
@@ -30,3 +30,8 @@ Restore Python Environment
 
         mkdir -p $HOME/.caouspy
         git clone https://github.com/Manticore/reikna.git $HOME/.caouspy/reikna
+
+3. Restore the default to system python
+
+        pyenv global system
+
