@@ -19,6 +19,8 @@ If you use a system other than OSX, you will need to modify these lists extensiv
 Maintaining the checklists
 ---
 
-The lists are held in a Git repository, with several branches.  The master branch is intended to contain generic checklists, with steps that almost everyone will follow.  It does not mention things such as text editors and web browsers, so you should create a branch that includes steps to install the ones you like.  We suggest the name of this branch should be your login.  You should merge the default branch into it before you run any list.  Please update steps on the master branch that fail, and push it to github when you're done.
+The lists are held in a Git repository, with several branches.  The master branch is intended to contain generic checklists, with steps that almost everyone will follow.  It does not mention things such as text editors and web browsers, so you should create a branch that includes steps to install the ones you like.  We suggest the name of this branch should be your login.  See the thisrod branch as an example.
+
+You should merge the default branch into your personal branch before you run any list.  Please update steps on the master branch that fail, and push it to github when you're done.
 
 The /etc directory has copies of some elusive configuration files.  These are described in the checklists at the point they are installed.  Consider adding obscure and generally useful files that you download.
