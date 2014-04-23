@@ -1,9 +1,9 @@
 Theoretical Physics Checklists
 ===
 
-These checklists maintain the scientific computing environment of the Theoretical Physics group at Swinburne University of Technology.  We use this environment to run phase space simulations of quantum dynamics.  The lists describe two types of procedures, bacukup and restore.  Restore creates the environment from scratch, while backup uploads data to the cloud in order that the restore process can do that.
+These checklists maintain the scientific computing environment of the Theoretical Physics group at Swinburne University of Technology.  We use this environment to run phase space simulations of quantum dynamics.  The lists describe two types of procedures, backup and restore.  Restore creates the environment from scratch, while backup uploads data to the cloud in order that the restore process can do that.
 
-Much scientific software is maintained by amateurs.  Therefore a working scientific computing system is a fast-moving target, and the restore checklists are usually out of date: you will need to modify some steps to sucessfully run them.  The steps that give you copies of the lists and a web browser should be reliable.
+Much scientific software is maintained by amateurs.  Therefore a working scientific computing system is a fast-moving target, and the restore checklists are usually out of date: you will need to modify some steps to sucessfully run them.  The initial steps, which give you copies of the lists, should be reliable.
 
 
 Which list to run
@@ -19,8 +19,8 @@ If you use a system other than OSX, you will need to modify these lists extensiv
 Maintaining the checklists
 ---
 
-The lists are held in a Git repository, with several branches.  The master branch is intended to contain generic checklists, with steps that almost everyone will follow.  It does not mention things such as text editors and web browsers, so you should create a branch that includes steps to install the ones you like.  We suggest the name of this branch should be your login.  See the thisrod branch as an example.
+The lists are held in a Git repository, with several branches.  The master branch is intended to contain generic checklists, with steps that almost everyone will follow.  It does not mention things such as text editors and web browsers, so you should create a branch that includes steps to install the ones you like.  I suggest you use your login as the name of this branch.  The branch for thisrod is available as an example.
 
 You should merge the default branch into your personal branch before you run any list.  Please update steps on the master branch that fail, and push it to github when you're done.
 
-The /etc directory has copies of some elusive configuration files.  These are described in the checklists at the point they are installed.  Consider adding obscure and generally useful files that you download.
+The /etc directory has copies of some elusive configuration files.  These are described in the checklists at the point they are installed.  Consider adding obscure and generally useful files that you download, with instructions on how to install them.
