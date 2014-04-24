@@ -40,14 +40,15 @@ Restore Terminal
 
         git clone https://github.com/thisrod/workshop.git $HOME/workshop
 
-
 5. Install a Fortran compiler
 
         brew install gfortran
 
 6. Install [TeX](http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg)
 
-6. Set up Latin Modern fonts in OSX (and thus in XeTeX).  Don't know how yet.
+6. Set up Latin Modern fonts
+
+        sudo ln -s /usr/local/texlive/2013basic/texmf-dist/fonts/opentype/public/lm '/Library/Fonts/Latin Modern'
 
 7. Install [Lyx](http://www.lyx.org/Download#toc4)
 
