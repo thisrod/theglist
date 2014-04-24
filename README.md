@@ -6,7 +6,7 @@ These checklists maintain the scientific computing environment of the Theoretica
 Much scientific software is maintained by amateurs.  Therefore a working scientific computing system is a fast-moving target, and the restore checklists are usually out of date: you will need to modify some steps to sucessfully run them.  The initial steps, which give you copies of the lists, should be reliable.
 
 
-Which list to run
+Which list to follow
 ---
 
 You should run the [Backup Checklist](backup.md) whenever you have done work you don't want to lose.
@@ -16,6 +16,24 @@ The [Maintenance Checklist](maintain.md) is a list of things people have had to 
 Run the [Upgrade Checklist](upgrade.md) to install a fresh version of OSX on your terminal.  If you have a new computer with OSX installed, just run the [Restore Terminal Checklist](terminal.md).
 
 If you use a system other than OSX, you will need to modify these lists extensively.  They might provide a useful reference for such things as the IP addresses of printers and the set of Python packages to install.
+
+
+How to follow a list
+---
+
+The lists comprise numbered steps.  Some steps will only work if you have carried out certain previous ones.  Therefore, if you want to install a single program, you shouldn't just look for the step that installs it.  Instead, work through the list from the start, and skip steps that you know aren't necessary.
+
+The simplest kind of step instructs you to do something in the OSX user interface.  These assume you can navigate sequences of menus and tabs such as Systerm Preferences → Printers & Scanners → Add → IP, and peform other standard UI actions.
+
+Some steps contain hyperlinks.  These will either take you to a website with instructions to install some software, or they will download an OSX package that will install software when you open it.
+
+The third kind of step requires you to run
+
+        a command
+
+in a terminal window.
+
+If you don't know what the above paragraphs mean, you shouldn't try this on your own.  Ask a geek to help you.
 
 
 Maintaining the checklists
