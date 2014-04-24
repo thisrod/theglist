@@ -32,11 +32,11 @@ Restore Terminal
 
 8. Install the RevTeX layout for Lyx
 
-        cp etc/revtex4-1.layout /Applications/LyX.app/Contents/Resources/layouts/
+        cp $HOME/theglist/etc/revtex4-1.layout /Applications/LyX.app/Contents/Resources/layouts/
 
 8. Run Lyx, and select LyX → Reconfigure
 
-9. Configure the AD printers at Systerm Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
+9. Configure the AD printers at System Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
 
 10. Install [Dropbox](https://www.dropbox.com/)
 
@@ -48,4 +48,4 @@ Restore Terminal
 
         tar -cf - -C $HOME/theglist/home/ . | tar -xf - -C $HOME
 
-13. Start a fresh shell
+13. Quit your shell and start a new one
