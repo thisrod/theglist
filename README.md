@@ -21,19 +21,19 @@ If you use a system other than OSX, you will need to modify these lists extensiv
 How to follow a list
 ---
 
-The lists comprise numbered steps.  Some steps will only work if you have carried out certain previous ones.  Therefore, if you want to install a single program, you shouldn't just look for the step that installs it.  Instead, work through the list from the start, and skip steps that you know aren't necessary.
+The lists comprise numbered steps, some of which work only if you have carried out the previous ones.  If you want to install a single program, don't just look for the step that installs it.  Instead, work through the list from the start, and skip steps that aren't necessary or that you've done before.
 
-The simplest kind of step instructs you to do something in the OSX user interface.  These assume you can navigate sequences of menus and tabs such as Systerm Preferences → Printers & Scanners → Add → IP, and peform other standard UI actions.
+The simplest kind of step instructs you to do something in the OSX user interface.  These assume you can navigate sequences of menus and tabs such as Systerm Preferences → Printers & Scanners → Add → IP.
 
-Some steps contain hyperlinks.  These will either take you to a website with instructions to install some software, or they will download an OSX package that will install software when you open it.
+Some steps contain hyperlinks.  These will either take you to a website that has further instructions, or they will download an OSX package that will install software when you open it.
 
-The third kind of step requires you to run
+A third kind of step requires you to run
 
         a command
 
 in a terminal window.
 
-If you don't know what the above paragraphs mean, you shouldn't try this on your own.  Ask a geek to help you.
+If you didn't understand the last paragraphs, don't try this on your own.  Ask a geek to help you.
 
 
 Maintaining the checklists
