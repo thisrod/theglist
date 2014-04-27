@@ -5,6 +5,8 @@ Backup
 
 1. Push everything to github
 
+2. Backup p9p customisations
+
 2. Pull the latest theglists
 
 3. Reconcile [theglists/home](/home) with home directory
