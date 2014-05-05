@@ -9,6 +9,8 @@ Restore Terminal
 
 2. Install [Firefox](http://www.mozilla.org/)
 
+2. Install an ArXiv search plugin
+
 1. Install the Homebrew package manager
 
         ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
