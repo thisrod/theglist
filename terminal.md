@@ -60,7 +60,7 @@ Restore Terminal
 
 8. Run Lyx, and select LyX → Reconfigure
 
-9. Configure the AD printers at Systerm Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
+9. Configure the AD printers at System Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
 
 10. Install [Dropbox](https://www.dropbox.com/)
 
@@ -68,8 +68,16 @@ Restore Terminal
 
         brew install pyenv
 
+12. Install octave
+
+        brew tap homebrew/science
+        brew install octave
+
 4. Install the dotfiles
 
         tar -cf - -C $HOME/theglist/home/ . | tar -xf - -C $HOME
+
+5. [Configure](https://support.mozilla.org/en-US/kb/change-program-used-open-email-links)
+Firefox to use Gmail
 
 13. Start a fresh shell
