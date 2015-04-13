@@ -36,7 +36,9 @@ Restore Terminal
 
 8. Run Lyx, and select LyX → Reconfigure
 
-9. Configure the AD printers at System Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
+9. Configure the AD first floor printers at System Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
+
+1. Configure the AD106 printer at System Preferences → Printers & Scanners → Add → Advanced.  The type is "Windows printer via spoolss", the URL is `smb://hap-ps01.ds.swin.edu.au/AD106-HP LaserJet 4100`.  Use the name "AD106".
 
 10. Install [Dropbox](https://www.dropbox.com/)
 

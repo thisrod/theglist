@@ -15,17 +15,23 @@ GStar variations (out of date)
 
         ssh <you>@g2.hpc.swin.edu.au
 
-1. Load the necessary environment on GStar
+1. Install pyenv (the system version lacks pyenv install)
 
-        module load python cuda pyenv
+        curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 
-1. Set up pyenv on GStar
-
-        echo 'module load pyenv; eval "$(pyenv init -)"' >> ~/.bashrc
+2. Add the suggested lines to your `.profile`
 
 1. Refer to the original if that doesn't work
 
         https://github.com/yyuu/pyenv#basic-github-checkout
+
+1. Load the cuda environment on GStar
+
+        module load cuda
+
+1. Install Python numerical libraries
+
+        pip install matplotlib
 
 1. Install Reikna on GStar
 
