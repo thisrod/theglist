@@ -15,8 +15,8 @@ Backup
         git status
         git push --all
 
-2. Pull the latest theglists
+2. Pull the latest theglist
 
-3. Reconcile [theglists/home](/home) with home directory
+3. Reconcile [theglist/home](/home) with home directory
 
 4. Update checklists with steps to reinstall anything you've just installed
