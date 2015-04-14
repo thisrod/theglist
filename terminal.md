@@ -3,7 +3,7 @@ Restore Terminal
 
 1. Get an Itunes account
 
-1. Install XCode from the App Store
+1. Install XCode from the App Store (is this necessary now that homebrew provides gcc?)
 
         which gcc
 
@@ -46,7 +46,7 @@ Restore Terminal
 
 5. Install a Fortran compiler
 
-        brew install gfortran
+        brew install gcc
 
 6. Install [TeX](http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg)
 
