@@ -60,7 +60,7 @@ Restore Terminal
 
         cp etc/revtex4-1.layout open /Applications/LyX.app/Contents/Resources/layouts/
 
-8. Run Lyx, and select LyX → Reconfigure
+8. Run Lyx, and select Tools → Reconfigure
 
 9. Configure the AD printers at System Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
 
