@@ -3,8 +3,8 @@ Restore Python Environment
 
 1. Install the current Python 3, and set as the default
 
-        pyenv install 3.4.0
-        pyenv global 3.4.0
+        pyenv install 3.4.3
+        pyenv global 3.4.3
 
 1. Install numpy
 

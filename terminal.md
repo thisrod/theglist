@@ -52,7 +52,8 @@ Restore Terminal
 
 6. Set up Latin Modern fonts
 
-        sudo ln -s /usr/local/texlive/2013basic/texmf-dist/fonts/opentype/public/lm '/Library/Fonts/Latin Modern'
+        sudo ln -s /usr/local/texlive/2017basic/texmf-dist/fonts/opentype/public/lm '/Library/Fonts/Latin Modern'
+        sudo ln -s /usr/local/texlive/2017basic/texmf-dist/fonts/opentype/public/lm-math/ '/Library/Fonts/Latin Modern Math'
 
 7. Install [Lyx](http://www.lyx.org/Download#toc4)
 
