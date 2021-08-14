@@ -1,26 +1,17 @@
 Restore Terminal
 ===
 
-1. Get an Itunes account
+1. Install Homebrew
 
-1. Install XCode from the App Store (is this necessary now that homebrew provides gcc?)
-
-        which gcc
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 2. Install [Firefox](http://www.mozilla.org/)
+
+2. Install the [Abine Blur plugin](https://addons.mozilla.org/en-US/firefox/addon/donottrackplus/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
 2. Install an [ArXiv search plugin](http://gruppo3.ca.infn.it/mfloris/?download=arxiv.xml)
 
         sudo cp /Users/rpolkinghorne/Downloads/arxiv.xml /Applications/Firefox.app/Contents/Resources/browser/searchplugins
-
-1. Install the Homebrew package manager
-
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-        brew doctor
-
-2. Install a recent version of git
-
-        brew install git
 
 2. Configure git following [Github's instructions](https://help.github.com/articles/set-up-git#set-up-git)
 
@@ -29,52 +20,24 @@ Restore Terminal
         git clone https://github.com/thisrod/theglist.git $HOME/theglist
         cd $HOME/theglist; git checkout thisrod
 
-0. Install mercurial
-
-        brew install hg
 
 0. Download Plan 9 from User Space
 
         cd /usr/local
-        hg clone http://code.swtch.com/plan9port plan9
+        sudo git clone https://github.com/9fans/plan9port.git plan9
         cd plan9
-        ./INSTALL
+        sudo ./INSTALL
 
 0. Download workshop
 
         git clone https://github.com/thisrod/workshop.git $HOME/workshop
 
-5. Install a Fortran compiler
-
-        brew install gcc
-
-6. Install [TeX](http://mirror.ctan.org/systems/mac/mactex/mactex-basic.pkg)
+6. Install [TeX](https://mirror.ctan.org/systems/mac/mactex/BasicTeX.pkg)
 
 6. Set up Latin Modern fonts
 
-        sudo ln -s /usr/local/texlive/2017basic/texmf-dist/fonts/opentype/public/lm '/Library/Fonts/Latin Modern'
-        sudo ln -s /usr/local/texlive/2017basic/texmf-dist/fonts/opentype/public/lm-math/ '/Library/Fonts/Latin Modern Math'
-
-7. Install [Lyx](http://www.lyx.org/Download#toc4)
-
-8. Install the RevTeX layout for Lyx
-
-        cp etc/revtex4-1.layout open /Applications/LyX.app/Contents/Resources/layouts/
-
-8. Run Lyx, and select Tools → Reconfigure
-
-9. Configure the AD printers at System Preferences → Printers & Scanners → Add → IP.  The address is 172.22.10.24; use the name "5030".
-
-10. Install [Dropbox](https://www.dropbox.com/)
-
-11. Install pyenv (see the [Restore Python Checklist](python.md))
-
-        brew install pyenv
-
-12. Install octave
-
-        brew tap homebrew/science
-        brew install octave
+        sudo ln -s /usr/local/texlive/*basic/texmf-dist/fonts/opentype/public/lm '/Library/Fonts/Latin Modern'
+        sudo ln -s /usr/local/texlive/*basic/texmf-dist/fonts/opentype/public/lm-math/ '/Library/Fonts/Latin Modern Math'
 
 4. Install the dotfiles
 
